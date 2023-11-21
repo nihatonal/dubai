@@ -1,0 +1,24 @@
+.main_navigation_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px 26px;
+}
+.main_navigation_left_content {
+  width: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+}
+.phone_btn {
+  color: var(--color_white);
+  font-family: var(--Gilroy_light);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.phone_btn:hover {
+  color: var(--color_yellow);
+}

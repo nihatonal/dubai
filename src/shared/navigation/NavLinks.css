@@ -1,0 +1,66 @@
+.navbar {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  /* margin: 0 0 0 152px; */
+}
+.navlink_item {
+  color: var(--color_white);
+  font-family: var(--Gilroy_medium);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #272727;
+}
+.navlink_item:hover {
+  color: var(--color_yellow);
+  border-bottom-color: var(--color_yellow);
+}
+.active {
+  color: var(--color_yellow);
+  font-family: var(--Gilroy_medium);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+  border-bottom: 2px solid var(--color_yellow);
+}
+.navlink_item_btn {
+  color: var(--color_white);
+  font-family: var(--Gilroy_medium);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+}
+.navlink_item_btn:hover {
+  cursor: pointer;
+  color: var(--color_yellow);
+}
+.navlink_item_btn:hover .dropbtn {
+  color: var(--color_yellow);
+}
+.navlink_item_btn .dropbtn {
+  color: var(--color_white);
+  font-size: 24px;
+}
+.active_drop {
+  color: var(--color_yellow);
+}
+.active_drop .dropbtn {
+  color: var(--color_yellow);
+}

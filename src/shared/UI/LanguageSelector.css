@@ -1,0 +1,14 @@
+.select-lang_btn {
+  color: var(--color_yellow);
+  text-align: right;
+  font-family: var(--Gilroy_light);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.select-lang_btn:last-child {
+  margin-left: 8px;
+}

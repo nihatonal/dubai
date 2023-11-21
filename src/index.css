@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: local("Gilroy-Bold"),
+    url(./assets/fonts/gilroy/Gilroy-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: local("Gilroy-Medium"),
+    url(./assets/fonts/gilroy/Gilroy-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: local("Gilroy-Light"),
+    url(./assets/fonts/gilroy/Gilroy-Light.ttf) format("truetype");
+}
+
+:root {
+  --page_bg: #272727;
+  --secondary-color: #628a76;
+  --color_white: #fff;
+  --color_yellow: #fcd54c;
+  --color_grey: #979797;
+  --passive_btn: #929292;
+  --Gilroy_bold: "Gilroy-Bold", sans-serif;
+  --Gilroy_medium: "Gilroy-Medium", sans-serif;
+  --Gilroy_light: "Gilroy-Light", sans-serif;
+  --Work_sans: "Work Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: auto;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--page_bg);
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,17 @@
+.consultation-btn {
+  color: #000;
+  font-family: var(--Work_sans);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 165px;
+  height: 41px;
+  /* padding: 12px 14px; */
+  background: var(--color_yellow);
+  cursor: pointer;
+}
+.consultation-btn:hover {
+  /* transition: all 0.3s; */
+  box-shadow: 0 0 5px var(--color_white);
+}

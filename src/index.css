@@ -23,10 +23,12 @@
   --color_yellow: #fcd54c;
   --color_grey: #979797;
   --passive_btn: #929292;
+  --color_dark_white: #E8E8E8;
   --Gilroy_bold: "Gilroy-Bold", sans-serif;
   --Gilroy_medium: "Gilroy-Medium", sans-serif;
   --Gilroy_light: "Gilroy-Light", sans-serif;
   --Work_sans: "Work Sans", sans-serif;
+  --Grotesk: "Space Grotesk", sans-serif;
 }
 
 * {
@@ -36,7 +38,7 @@
 }
 html,
 body {
-  height: auto;
+  margin: 0;
   width: 100%;
   overflow-x: hidden;
   background-color: var(--page_bg);
@@ -46,6 +48,7 @@ a {
 }
 button {
   border: none;
+  background: none;
 }
 
 ul {

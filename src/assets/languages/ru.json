@@ -5,5 +5,137 @@
     "О Нас",
     "Контакт"
   ],
-  "consultation_btn": "Записаться на консультацию"
+  "consultation_btn": "Записаться на консультацию",
+  "hero_title": [
+    "Добро пожаловать",
+    "к ",
+    "роскошь"
+  ],
+  "hero_suptitle": "Lorem Ipsum",
+  "slide_prevbtn": "пред",
+  "slide_nextbtn": "след",
+  "slide_content_1": "Lorem Ipsum",
+  "slide_content_2": "Lorem Ipsum",
+  "slide_content_3": "Lorem Ipsum",
+  "lastprojects_title": "Последние проекты",
+  "lastprojects_buttons": [
+    "Все",
+    "Здания",
+    "Интерьер",
+    "Посмотреть все проекты"
+  ],
+  "lastprojects-link-btn": "Посмотреть проект",
+  "lastprojects_data": [
+    {
+      "id": "project_1",
+      "region": "Дубай",
+      "type": "Виллы",
+      "view": "здания",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/project_1.png')"
+    },
+    {
+      "id": "project_2",
+      "region": "Дубай",
+      "type": "Дома",
+      "view": "здания",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/project_2.png')"
+    },
+    {
+      "id": "project_3",
+      "region": "Дубай",
+      "type": "Виллы",
+      "view": "интерьер",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/project_3.png')"
+    },
+    {
+      "id": "project_4",
+      "region": "Дубай",
+      "type": "Дома",
+      "view": "здания",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/project_2.png')"
+    },
+    {
+      "id": "project_5",
+      "region": "Дубай",
+      "type": "Коммерческий",
+      "view": "интерьер",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/project_3.png')"
+    },
+    {
+      "id": "project_6",
+      "region": "Дубай",
+      "type": "Дома-бунгало",
+      "view": "здания",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/bungolav.jpg')"
+    },
+    {
+      "id": "project_7",
+      "region": "Дубай",
+      "type": "Виллы",
+      "view": "интерьер",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/villa_интерьер.jfif')"
+    },
+    {
+      "id": "project_8",
+      "region": "Дубай",
+      "type": "Городский",
+      "view": "интерьер",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/house_интерьер.jfif')"
+    },
+    {
+      "id": "project_9",
+      "region": "Дубай",
+      "type": "Сборные дома",
+      "view": "здания",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/prefab.jpg')"
+    },
+    {
+      "id": "project_10",
+      "region": "Дубай",
+      "type": "Дома-бунгало",
+      "view": "интерьер",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/bungolav.jpg')"
+    },
+    {
+      "id": "project_11",
+      "region": "Дубай",
+      "type": "Сборные дома",
+      "view": "здания",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/prefab_2.jpg')"
+    },
+    {
+      "id": "project_12",
+      "region": "Дубай",
+      "type": "Сборные дома",
+      "view": "здания",
+      "name": "Дубай",
+      "desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
+      "image": "require('./images/projects/prefab_2.jpg')"
+    }
+  ],
+  "expertise": "Наша экспертиза",
+  "expertise_title": "Лучшая квартира в Дубае мы найдём вашу мечту",
+  "expertise_desc": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum."
 }

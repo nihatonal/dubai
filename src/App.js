@@ -3,7 +3,7 @@ import { LanguageProvider } from './shared/context/Language'
 import LoadingSpinner from './shared/UI/LoadingSpinner';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './shared/navigation/Header';
-
+import Main from './Main/Main';
 
 import './App.css';
 
@@ -21,11 +21,11 @@ function App() {
             }
           >
             <Header />
-            {/*  <Routes>
+            <Routes>
+              <Route exact path="/" element={<Main />} />
+            </Routes>
 
-          </Routes>
-
-          <Footer /> */}
+            {/*<Footer /> */}
           </Suspense>
         </BrowserRouter>
       </LanguageProvider>
